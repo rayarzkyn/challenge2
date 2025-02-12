@@ -13,17 +13,17 @@ export default function StudentTable() {
     <div className="min-h-screen bg-gray-100 p-4 flex flex-col items-center">
       <h1 className="text-2xl font-bold mb-4 text-gray-800">Daftar Mahasiswa</h1>
 
-      <div className="w-full max-w-xs sm:max-w-lg overflow-x-auto">
+      <div className="w-full max-w-4xl overflow-x-auto">
         <table className="w-full bg-white shadow-md rounded-lg overflow-hidden">
           <thead className="bg-blue-500 text-white">
             <tr>
               <th className="py-2 px-3 text-left text-xs">No</th>
               <th className="py-2 px-3 text-left text-xs">NIM</th>
               <th className="py-2 px-3 text-left text-xs">Nama</th>
-              <th className="py-2 px-3 text-left text-xs sm:table-cell hidden">Gender</th>
-              <th className="py-2 px-3 text-left text-xs sm:table-cell hidden">Prodi</th>
-              <th className="py-2 px-3 text-left text-xs sm:table-cell hidden">Kelas</th>
-              <th className="py-2 px-3 text-left text-xs sm:table-cell hidden">Semester</th>
+              <th className="py-2 px-3 text-left text-xs hidden sm:table-cell">Gender</th>
+              <th className="py-2 px-3 text-left text-xs hidden sm:table-cell">Prodi</th>
+              <th className="py-2 px-3 text-left text-xs hidden sm:table-cell">Kelas</th>
+              <th className="py-2 px-3 text-left text-xs hidden sm:table-cell">Semester</th>
               <th className="py-2 px-3 text-left text-xs sm:hidden">Details</th>
             </tr>
           </thead>
